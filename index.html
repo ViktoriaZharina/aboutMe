@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(207, 177, 183);
+      }
+      .container {
+        margin: 0 auto;
+      }
+      .logo {
+        font-size: 30px;
+        color: blanchedalmond;
+      }
+      .header {
+        background-color: rgb(216, 133, 150);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .header-link {
+        color: blanchedalmond;
+        margin-left: 50px;
+      }
+      .hero {
+        height: 300px;
+        background-image: url("/hero.avif");
+        background-repeat: no-repeat;
+
+        background-size: 100%;
+      }
+      .feathers-title {
+        color: rgb(64, 62, 58);
+        text-align: center;
+        font-size: 2rem;
+      }
+      .card-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        margin: 50px;
+      }
+      .card {
+        background-color: hsl(0, 48%, 95%);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        width: 30%;
+      }
+      .card h2 {
+        margin-top: 0;
+      }
+      .footer {
+        background-color: rgb(216, 133, 150);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body class="container">
+    <header class="header">
+      <p class="logo">VIKTORIA💕</p>
+      <a class="header-link" href="#footer">Contact me</a>
+      <a class="header-link" href="#hero">About me</a>
+    </header>
+    <main>
+      <section class="hero"></section>
+      <section class="feathers">
+        <h2 class="feathers-title">What about my studing</h2>
+        <div class="card-container">
+          <div class="card">
+            <h2>HTML😁</h2>
+            <p>
+              This is a short description inside the first card. You can add
+              more content as needed.
+            </p>
+          </div>
+
+          <div class="card">
+            <h2>CSS🪴</h2>
+            <p>
+              This is a short description inside the second card. Customize the
+              content here as well.
+            </p>
+          </div>
+
+          <div class="card">
+            <h2>Java Script🤍</h2>
+            <p>
+              This is a short description inside the third card. Feel free to
+              change the content.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="footer">
+      <div>
+        <p class="logo">VIKTORIA💕</p>
+      </div>
+      <div>
+        <a class="header-link" href="mailto:viktoriamail868@gmail.com"
+          >My mail</a
+        >
+        <a class="header-link" href="tel:+380984871082">My phone</a>
+      </div>
+    </footer>
+  </body>
+</html>
